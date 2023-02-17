@@ -1,0 +1,94 @@
+.newUser_controls{
+    margin:5px;
+}
+.newUser_controls label{
+font-weight: bold;
+padding:4px;
+margin:3px;
+}
+.newUser_controls input{
+    padding:4px;
+    margin:3px;
+    width:100%;
+    border:2px solid rgb(37, 225, 27);
+    border-radius: 3px;
+}
+.actions{
+    padding:4px;
+
+}
+.actions button{
+    padding:5px;
+    float:inline-end;
+    margin-left: 10px;
+    background-color: rgb(37, 225, 27);
+    border:none;
+    color:rgb(52, 16, 161);
+    font-weight: bold;
+    width:100px;
+}
+
+.newUser_List{
+    background: white;
+    width:50%;
+    padding:2px;
+    border-radius: 5px;
+    margin-left: 100px;
+}
+.newUser_List li{
+    list-style: none;
+    
+}
+.newUser_List__items p{
+     border: 1px solid black;
+     background: white;
+     margin: 4px;
+    
+     padding: 2px;
+     
+}
+.error_container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background:rgba(0, 0, 0, 0.61)
+    
+}
+.error{
+    border:0.5px transparent beige;
+    border-radius: 5px;
+    object-fit:cover;
+    display: block;
+    background: white;
+    padding:0px;
+    padding-bottom: 15px;
+    width:30%;
+    margin-top:100px;
+    margin-left: 300px;
+}
+.error_header{
+    top: 0;
+   margin-top: 0%;
+    background: red;
+    color:white;
+    padding:0px;
+    padding-top: 0.1px;
+}
+.error_content{
+   background: white;
+   padding:4px;
+  
+}
+
+.error_control_action{
+    background: white;
+    padding:3px;
+}
+.error_control_action button{
+    float:right;
+    background: blueviolet;
+    color:aliceblue;
+    border-radius: 2px;
+    margin:0px;
+    width: 60px;
+}
